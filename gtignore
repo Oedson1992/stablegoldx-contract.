@@ -1,0 +1,32 @@
+.gitignore
+# Dependências
+node_modules/
+build/
+artifacts/
+cache/
+typechain-types/
+
+# Arquivos de ambiente
+.env
+.env.local
+.secret
+*.pem
+
+# IDEs/Editores
+.vscode/
+.idea/
+*.swp
+
+# Logs e temporários
+*.log
+*.tmp
+*.dump
+
+# Frameworks específicos
+# Hardhat
+coverage/
+coverage.json
+
+# Foundry
+out/
+broadcast/
